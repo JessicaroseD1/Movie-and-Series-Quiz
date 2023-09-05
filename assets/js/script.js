@@ -1,3 +1,7 @@
 function main() {
+
+}
+
+function setNextQuestion() {
     
 }
