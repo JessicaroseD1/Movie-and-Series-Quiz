@@ -46,6 +46,15 @@ p {
     color: rgb(248, 8, 120)
 }
 
+.end-btn {
+    color: rgb(248, 8, 120)
+}
+
+.end-btn {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 .start-btn,
 .next-btn {
     font-weight: bold;

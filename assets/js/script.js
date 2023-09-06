@@ -15,12 +15,6 @@ nextButton.addEventListener('click', () => {
     setNextQuestion();
 });
 
-// need to add a function to remove the text ()remove child possibly? OR can I add it to the main function?
-
-// either I use a const to call element by ID which I have given in <p> in the html tag
-
-// add it as a const? with a remove.element as well?
-
 function main() {
     startButton.classList.add('hide');
     endButton.classList.add('hide');
@@ -33,12 +27,13 @@ function main() {
 }
 
 function endGame() {
-    rem;
+    console.log("Funct end game");
+    endButton.classList.remove('hide');
+    endButton.innerText = 'End Game';
+    endButton.addEventListener('click', endGame);
+    //make end game go to another page; 
 }
 
-
-// Add in an end game button maybe? Also a results section
-// capture the right answers in a variable 
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
