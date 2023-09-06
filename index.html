@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="assets/css/style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="assets/css/style.css" rel="stylesheet" />
     <script defer src="assets/js/script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Quiz</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div id="question-container" class="hide"> 
+      <h1>Can You Pass The Ultimate Movie and Series Quiz?</h1>
+      <p class="intro-text">
+        The average fan may know the lyrics to Phoebe's <em>"Smelly Cat"</em> or
+        what the first ever Pixar film was... question is, would you know the
+        year? Now is the time to test your knowledge. The rules are simple, just
+        pick the correct answer out of the four choices, but NO cheating! You
+        can't ask our trusty friend Google!
+      </p>
+      <p>Hit the start button to begin! Good luck.</p>
+      <div id="question-container" class="hide">
         <div id="question">Question</div>
         <div id="answer-buttons" class="btn-grid">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
-        <button class="btn">Answer 3</button>
-        <button class="btn">Answer 4</button>
-    <div class="controls">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+      </div>
+      <div class="controls">
         <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="end-btn" class="end-btn btn hide">End Game</button>
         <button id="next-btn" class="next-btn btn hide">Next</button>
-</body>
+      </div>
+    </div>
+  </body>
 </html>
