@@ -1,17 +1,23 @@
 body {
     background-image: url(../images/background-image.jpg);
-    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
-    color: rgb(248, 8, 120);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
 }
 
 .container {
-    background-color: #fcd4d4;
+    background-color: rgba(255, 255, 0, 0.911);
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -28,27 +34,43 @@ p {
     column-gap: 50px;
     grid-columns: 2;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    color: rgb(16, 89, 247);
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+
 }
 
 .btn:hover {
-    border-color: rgb(247, 16, 93);
+    border-color: rgb(16, 89, 247);
+    border-radius: 5%;
 }
 
 .btn.correct {
     background-color: rgb(186, 252, 186);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 128, 0);
+    border-radius: 10px;
 }
 
 .btn.wrong {
     background-color: rgb(253, 103, 103);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-radius: 10px;
 }
 
 .start-btn {
-    color: rgb(248, 8, 120)
+    color: rgb(0, 0, 0)
 }
 
 .end-btn {
-    color: rgb(248, 8, 120)
+    color: rgb(16, 89, 247);
 }
 
 .end-btn {
@@ -70,6 +92,12 @@ p {
 
 .hide {
     display: none;
+}
+
+#question {
+    color: rgb(255, 0, 0);
+    font-size: medium;
+    font-size: x-large;
 }
 
 @media screen and (max-width: 320px) {
