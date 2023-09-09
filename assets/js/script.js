@@ -4,7 +4,6 @@ const endButton = document.getElementById('end-btn');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
-const introText = document.getElementById('intro-text');
 
 let shuffledQuestions, currentQuestionIndex;
 
@@ -29,7 +28,6 @@ function main() {
 function endGame() {
     console.log("Funct end game");
     endButton.classList.remove('hide');
-    endButton.innerText = 'End Game';
     endButton.addEventListener('click', endGame);
     //make end game go to another page; 
 }
