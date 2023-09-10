@@ -6,11 +6,11 @@ This movie quiz is a simple quiz about famous films and some of the famous quote
 
 ## Live website
 
-[]<https://jessicarosed1.github.io/Movie-and-Series-Quiz/>
+<https://jessicarosed1.github.io/Movie-and-Series-Quiz/>
 
 ## Repository  
 
-[]<https://github.com/JessicaroseD1/Movie-and-Series-Quiz>
+<https://github.com/JessicaroseD1/Movie-and-Series-Quiz>
 
 ## Overview
 
@@ -32,7 +32,7 @@ The colours that are being used throughout are consistent and the idea behind th
 
 ## Features
 
-## Existing Features
+### Existing Features
 
 ### Start Section (Landing Page)
 
@@ -55,8 +55,6 @@ The responsiveness also would need to be looked at again, the padding around the
 I would also like to make the page more engaging, perhaps with different background or picture to do with each question could of been another visually engaging aspect.
 
 I need to also style the feedback form. At the moment this is very basic, but it has the features in place.
-
-##Technologies Used
 
 ### Languages
 
