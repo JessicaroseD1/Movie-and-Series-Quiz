@@ -126,7 +126,7 @@ The website was also tested physically on Iphone 12, Iphone XR, as well as a Mic
 
 ##Resolved Bugs/Any issues  
 
-I need to re-arrange the order of my buttong for the end game as this is causing an error.
+I need to re-arrange the order of my end game button syntax as this is causing an error.
 
 
 

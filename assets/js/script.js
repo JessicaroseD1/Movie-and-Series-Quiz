@@ -20,7 +20,7 @@ function main() {
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     questionContainerElement.classList.remove('hide');
-    //introText.classList.add('hide'); 
+
 
     setNextQuestion();
 }
@@ -29,7 +29,7 @@ function endGame() {
     console.log("Funct end game");
     endButton.classList.remove('hide');
     endButton.addEventListener('click', endGame);
-    //make end game go to another page; 
+
 }
 
 function setNextQuestion() {
@@ -120,4 +120,3 @@ const questions = [
     }
 ];
 
-// Add in more questions

@@ -87,7 +87,6 @@ p {
 .controls {
     padding: 1%;
     border-radius: 10px;
-    /* Make this justified and centred */
 }
 
 .hide {
@@ -149,26 +148,6 @@ p {
 
     .next-btn {
         font-size: 1rem;
-    }
-
-    @media screen and (max-width: 425px) {
-        .container {
-            max-height: 800px;
-            padding-bottom: 3%
-        }
-
-        p {
-            font-size: 1.1rem;
-        }
-
-        .start-btn {
-            font-size: 1rem;
-        }
-
-        .next-btn {
-            font-size: 1rem;
-        }
-
     }
 
     @media screen and (max-width: 800px) {
