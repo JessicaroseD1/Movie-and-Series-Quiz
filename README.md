@@ -127,3 +127,12 @@ The website was also tested physically on Iphone 12, Iphone XR, as well as a Mic
 ## Resolved Bugs/Any issues  
 
 I need to re-arrange the order of my end game button syntax as this is causing an error.
+
+## Deployment
+
+### Deploying a GitHub Repository to GitHub Pages
+
+1. Navigate to the "Settings" tab in the GitHub repository.
+2. Select "Pages" from the menu on the left.
+3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
+4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.
