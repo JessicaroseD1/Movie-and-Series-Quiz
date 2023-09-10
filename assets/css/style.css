@@ -32,7 +32,7 @@ p {
 .btn {
     display: inline-block;
     column-gap: 50px;
-    grid-columns: 2;
+    column-count: 2;
     padding: 10px;
     border-radius: 10px;
     color: rgb(16, 89, 247);
@@ -100,6 +100,19 @@ p {
     font-size: x-large;
 }
 
+#contact-form {
+    background-color: rgba(255, 255, 0, 0.911);
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 320px) {
     .container {
         max-height: 590px;
@@ -120,7 +133,7 @@ p {
 
 }
 
-@media screen and (max-width: 375x) {
+@media screen and (max-width: 375px) {
     .container {
         max-height: 800px;
         padding-bottom: 3%
@@ -138,7 +151,7 @@ p {
         font-size: 1rem;
     }
 
-    @media screen and (max-width: 425x) {
+    @media screen and (max-width: 425px) {
         .container {
             max-height: 800px;
             padding-bottom: 3%
@@ -176,3 +189,4 @@ p {
             font-size: 1rem;
         }
     }
+}
