@@ -119,3 +119,60 @@ p {
     }
 
 }
+
+@media screen and (max-width: 375x) {
+    .container {
+        max-height: 800px;
+        padding-bottom: 3%
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .start-btn {
+        font-size: 1rem;
+    }
+
+    .next-btn {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 425x) {
+        .container {
+            max-height: 800px;
+            padding-bottom: 3%
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        .start-btn {
+            font-size: 1rem;
+        }
+
+        .next-btn {
+            font-size: 1rem;
+        }
+
+    }
+
+    @media screen and (max-width: 800px) {
+        .container {
+            max-height: 590px;
+            padding-bottom: 3%
+        }
+
+        p {
+            font-size: large;
+        }
+
+        .start-btn {
+            font-size: 1.5rem;
+        }
+
+        .next-btn {
+            font-size: 1rem;
+        }
+    }
